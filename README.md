@@ -27,7 +27,7 @@ spectral_fitting/
 1. Clone the repo or download the files:
 
 ```bash
-git clone https://github.com/your_username/spectral-fitting.git
+git clone https://github.com/ShubhamGupta005/spectral-fitting.git
 cd spectral-fitting
 ```
 
