@@ -62,6 +62,9 @@ Then run:
 ```bash
 python main.py
 ```
+
+for running individual files containing wavelength and flux column
+run 
 ```
 python demo.py "/path/to/your/spectra/file/txt
 ```
