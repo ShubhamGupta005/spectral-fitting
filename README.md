@@ -62,7 +62,9 @@ Then run:
 ```bash
 python main.py
 ```
-
+```
+python demo.py "/path/to/your/spectra/file/txt
+```
 ---
 
 ##  Output
