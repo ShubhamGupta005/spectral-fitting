@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Fit a single spectrum:
 ```python
@@ -65,7 +65,7 @@ python main.py
 
 ---
 
-## 📊 Output
+##  Output
 
 For each spectrum:
 - pEW, velocity, and FWHM for PV, HV, and total components
@@ -74,22 +74,19 @@ For each spectrum:
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 - numpy
 - scipy
 - pandas
 - matplotlib
 
-Install with:
 
-```bash
-pip install -r requirements.txt
-```
+
 
 ---
 
-## 🧪 Line Types Supported
+## Line Types Supported
 
 | Line     | Rest Wavelengths (Å) | Notes                          |
 |----------|----------------------|--------------------------------|
@@ -98,12 +95,8 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 License
 
-MIT License
 
----
+## 🤝Credits
 
-## 🤝 Credits
-
-Developed by Ray for Type Ia Supernova Spectral Analysis.
+Developed by Shubham Gupta for Type Ia Supernova Spectral Analysis.
