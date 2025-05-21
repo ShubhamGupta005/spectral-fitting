@@ -7,7 +7,9 @@ import matplotlib.pyplot as plt
 from fitting import fit_siII  # Or use fit_cahk for Ca II
 
 # Load example spectrum
-df = pd.read_csv('example_spectrum.csv')  # Must have 'Wavelength' and 'Flux' columns
+import sys
+
+csv_path = sys.argv[1] if len(sys.argv) > 1 else 'example_spectrum.csv'
 wave = df['Wavelength'].values
 flux = df['Flux'].values
 spec = {'wave': wave, 'flux': flux}
